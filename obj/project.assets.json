@@ -605,6 +605,31 @@
           "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
         }
       },
+      "Microsoft.Extensions.ML/1.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.1.0",
+          "Microsoft.Extensions.Logging": "2.1.0",
+          "Microsoft.Extensions.ObjectPool": "2.1.0",
+          "Microsoft.Extensions.Options": "2.1.0",
+          "Microsoft.ML": "1.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.ML.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.ML.dll": {}
+        }
+      },
+      "Microsoft.Extensions.ObjectPool/2.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.ObjectPool.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.ObjectPool.dll": {}
+        }
+      },
       "Microsoft.Extensions.Options/3.1.4": {
         "type": "package",
         "dependencies": {
@@ -646,11 +671,11 @@
           "lib/netcoreapp2.1/Microsoft.Identity.Client.dll": {}
         }
       },
-      "Microsoft.ML/1.5.0-preview": {
+      "Microsoft.ML/1.5.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.ML.CpuMath": "1.5.0-preview",
-          "Microsoft.ML.DataView": "1.5.0-preview",
+          "Microsoft.ML.CpuMath": "1.5.0",
+          "Microsoft.ML.DataView": "1.5.0",
           "Newtonsoft.Json": "10.0.3",
           "System.CodeDom": "4.4.0",
           "System.Collections.Immutable": "1.5.0",
@@ -696,39 +721,40 @@
           }
         }
       },
-      "Microsoft.ML.CpuMath/1.5.0-preview": {
+      "Microsoft.ML.CpuMath/1.5.0": {
         "type": "package",
         "compile": {
-          "lib/netcoreapp3.0/Microsoft.ML.CpuMath.dll": {}
+          "lib/netcoreapp3.1/Microsoft.ML.CpuMath.dll": {}
         },
         "runtime": {
-          "lib/netcoreapp3.0/Microsoft.ML.CpuMath.dll": {}
+          "lib/netcoreapp3.1/Microsoft.ML.CpuMath.dll": {}
         },
         "build": {
           "build/netstandard2.0/_._": {}
         },
         "runtimeTargets": {
-          "runtimes/linux-x64/nativeassets/netcoreapp3.0/_._": {
+          "runtimes/linux-x64/nativeassets/netcoreapp3.1/_._": {
             "assetType": "native",
             "rid": "linux-x64"
           },
-          "runtimes/osx-x64/nativeassets/netcoreapp3.0/_._": {
+          "runtimes/osx-x64/nativeassets/netcoreapp3.1/_._": {
             "assetType": "native",
             "rid": "osx-x64"
           },
-          "runtimes/win-x64/nativeassets/netcoreapp3.0/_._": {
+          "runtimes/win-x64/nativeassets/netcoreapp3.1/_._": {
             "assetType": "native",
             "rid": "win-x64"
           },
-          "runtimes/win-x86/nativeassets/netcoreapp3.0/_._": {
+          "runtimes/win-x86/nativeassets/netcoreapp3.1/_._": {
             "assetType": "native",
             "rid": "win-x86"
           }
         }
       },
-      "Microsoft.ML.DataView/1.5.0-preview": {
+      "Microsoft.ML.DataView/1.5.0": {
         "type": "package",
         "dependencies": {
+          "System.Collections.Immutable": "1.5.0",
           "System.Memory": "4.5.1"
         },
         "compile": {
@@ -3555,6 +3581,35 @@
         "microsoft.extensions.logging.abstractions.nuspec"
       ]
     },
+    "Microsoft.Extensions.ML/1.5.0": {
+      "sha512": "1rLqdRZ/bdztNdLLZ4lsOA6wnC+QOW88CNsRWjlY4epKbPWvcdzmB62H/O9ATdMkuaY0zhyR3a+2Us6pYAFIyA==",
+      "type": "package",
+      "path": "microsoft.extensions.ml/1.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netstandard2.0/Microsoft.Extensions.ML.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.ML.xml",
+        "microsoft.extensions.ml.1.5.0.nupkg.sha512",
+        "microsoft.extensions.ml.nuspec",
+        "mlnetlogo.png"
+      ]
+    },
+    "Microsoft.Extensions.ObjectPool/2.1.0": {
+      "sha512": "tIbO45cohqexTJPXBubpwluycDT+6OWy2m7PukG37XMrtQ6Zv4AnoLrgUTaCmpWihSs5RZHKvThiAJFcBlR3AA==",
+      "type": "package",
+      "path": "microsoft.extensions.objectpool/2.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.Extensions.ObjectPool.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.ObjectPool.xml",
+        "microsoft.extensions.objectpool.2.1.0.nupkg.sha512",
+        "microsoft.extensions.objectpool.nuspec"
+      ]
+    },
     "Microsoft.Extensions.Options/3.1.4": {
       "sha512": "ntWmD8i6UmAo0nn5MiCXIVl3+75aybVHgP/NxL9B16zwsbGkSfs+66BullsGEDNvrimgIFVDO+iB/h0yWfATWg==",
       "type": "package",
@@ -3627,10 +3682,10 @@
         "ref/xamarinmac20/Microsoft.Identity.Client.xml"
       ]
     },
-    "Microsoft.ML/1.5.0-preview": {
-      "sha512": "CuwGu6mocVV2HpsrAZi2Ls515uS0EaQsjvWdT1fkB0G1WU9+WIkkrGnO04IW/G9X7cfRawPtFCBFICLBUOGSXQ==",
+    "Microsoft.ML/1.5.0": {
+      "sha512": "ZjUJCH3bEAAkzy7XLzK2IpPBTRS0weXQmbi+UVr8D2eBVY0Ty8RksvVgkmXcfDOV1CFRxG28krNkTjdjDqNKTg==",
       "type": "package",
-      "path": "microsoft.ml/1.5.0-preview",
+      "path": "microsoft.ml/1.5.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3650,7 +3705,7 @@
         "lib/netstandard2.0/Microsoft.ML.StandardTrainers.xml",
         "lib/netstandard2.0/Microsoft.ML.Transforms.dll",
         "lib/netstandard2.0/Microsoft.ML.Transforms.xml",
-        "microsoft.ml.1.5.0-preview.nupkg.sha512",
+        "microsoft.ml.1.5.0.nupkg.sha512",
         "microsoft.ml.nuspec",
         "mlnetlogo.png",
         "runtimes/linux-x64/native/libLdaNative.so",
@@ -3659,37 +3714,37 @@
         "runtimes/win-x86/native/LdaNative.dll"
       ]
     },
-    "Microsoft.ML.CpuMath/1.5.0-preview": {
-      "sha512": "nuk9+ZLSPmdjvaYpYInjZphENBSqYv0KweZvNUzf+S3hH2AYU4ZrIvcPoB0L9qN2fHwpzadaiij76fbylA0vLw==",
+    "Microsoft.ML.CpuMath/1.5.0": {
+      "sha512": "RSERjrAsv8xNt9vec+iMiWcH24QqLyi7Ka7Vwc9DRmmI+q1bmVh0CouGfi1sj8Bi8H9wbzMvb4+ZLJGgxvmHuA==",
       "type": "package",
-      "path": "microsoft.ml.cpumath/1.5.0-preview",
+      "path": "microsoft.ml.cpumath/1.5.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE",
         "THIRD-PARTY-NOTICES.TXT",
         "build/netstandard2.0/Microsoft.ML.CpuMath.props",
-        "lib/netcoreapp3.0/Microsoft.ML.CpuMath.dll",
-        "lib/netcoreapp3.0/Microsoft.ML.CpuMath.xml",
+        "lib/netcoreapp3.1/Microsoft.ML.CpuMath.dll",
+        "lib/netcoreapp3.1/Microsoft.ML.CpuMath.xml",
         "lib/netstandard2.0/Microsoft.ML.CpuMath.dll",
         "lib/netstandard2.0/Microsoft.ML.CpuMath.xml",
-        "microsoft.ml.cpumath.1.5.0-preview.nupkg.sha512",
+        "microsoft.ml.cpumath.1.5.0.nupkg.sha512",
         "microsoft.ml.cpumath.nuspec",
         "mlnetlogo.png",
-        "runtimes/linux-x64/nativeassets/netcoreapp3.0/_._",
+        "runtimes/linux-x64/nativeassets/netcoreapp3.1/_._",
         "runtimes/linux-x64/nativeassets/netstandard2.0/libCpuMathNative.so",
-        "runtimes/osx-x64/nativeassets/netcoreapp3.0/_._",
+        "runtimes/osx-x64/nativeassets/netcoreapp3.1/_._",
         "runtimes/osx-x64/nativeassets/netstandard2.0/libCpuMathNative.dylib",
-        "runtimes/win-x64/nativeassets/netcoreapp3.0/_._",
+        "runtimes/win-x64/nativeassets/netcoreapp3.1/_._",
         "runtimes/win-x64/nativeassets/netstandard2.0/CpuMathNative.dll",
-        "runtimes/win-x86/nativeassets/netcoreapp3.0/_._",
+        "runtimes/win-x86/nativeassets/netcoreapp3.1/_._",
         "runtimes/win-x86/nativeassets/netstandard2.0/CpuMathNative.dll"
       ]
     },
-    "Microsoft.ML.DataView/1.5.0-preview": {
-      "sha512": "X9YmVQxPdchIYpYrsL1sO7mgJ5ndECX7kmuDrzZl67jFVdQ6L7viDMNt7FNxPJ9+MLN7qM/ZKj6BaVtc9J3CxQ==",
+    "Microsoft.ML.DataView/1.5.0": {
+      "sha512": "mKgNqg6aQUyVyTSitNkhPnUcmnEW3P93F0CaLSjOCpYr6hUkYqGZh76YPt5idSuZ2sI4JcvgelszLZT+wrQGkQ==",
       "type": "package",
-      "path": "microsoft.ml.dataview/1.5.0-preview",
+      "path": "microsoft.ml.dataview/1.5.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3697,7 +3752,7 @@
         "THIRD-PARTY-NOTICES.TXT",
         "lib/netstandard2.0/Microsoft.ML.DataView.dll",
         "lib/netstandard2.0/Microsoft.ML.DataView.xml",
-        "microsoft.ml.dataview.1.5.0-preview.nupkg.sha512",
+        "microsoft.ml.dataview.1.5.0.nupkg.sha512",
         "microsoft.ml.dataview.nuspec",
         "mlnetlogo.png"
       ]
@@ -8748,6 +8803,7 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.4",
       "Microsoft.EntityFrameworkCore.Sqlite >= 3.1.4",
       "Microsoft.EntityFrameworkCore.Tools >= 3.1.4",
+      "Microsoft.Extensions.ML >= 1.5.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 3.1.3"
     ]
   },
@@ -8809,6 +8865,10 @@
             "suppressParent": "All",
             "target": "Package",
             "version": "[3.1.4, )"
+          },
+          "Microsoft.Extensions.ML": {
+            "target": "Package",
+            "version": "[1.5.0, )"
           },
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",

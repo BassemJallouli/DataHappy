@@ -167,3 +167,17 @@ C:\Users\Happy\source\repos\DataHappy\obj\Debug\netcoreapp3.1\Razor\Pages\Confer
 C:\Users\Happy\source\repos\DataHappy\obj\Debug\netcoreapp3.1\Razor\Pages\Conferences\Details.cshtml.g.cs
 C:\Users\Happy\source\repos\DataHappy\obj\Debug\netcoreapp3.1\Razor\Pages\Conferences\Edit.cshtml.g.cs
 C:\Users\Happy\source\repos\DataHappy\obj\Debug\netcoreapp3.1\Razor\Pages\Conferences\Index.cshtml.g.cs
+C:\Users\Happy\source\repos\DataHappy\bin\Debug\netcoreapp3.1\Microsoft.ML.Core.dll
+C:\Users\Happy\source\repos\DataHappy\bin\Debug\netcoreapp3.1\Microsoft.ML.Data.dll
+C:\Users\Happy\source\repos\DataHappy\bin\Debug\netcoreapp3.1\Microsoft.ML.KMeansClustering.dll
+C:\Users\Happy\source\repos\DataHappy\bin\Debug\netcoreapp3.1\Microsoft.ML.PCA.dll
+C:\Users\Happy\source\repos\DataHappy\bin\Debug\netcoreapp3.1\Microsoft.ML.StandardTrainers.dll
+C:\Users\Happy\source\repos\DataHappy\bin\Debug\netcoreapp3.1\Microsoft.ML.Transforms.dll
+C:\Users\Happy\source\repos\DataHappy\bin\Debug\netcoreapp3.1\Microsoft.ML.CpuMath.dll
+C:\Users\Happy\source\repos\DataHappy\bin\Debug\netcoreapp3.1\Microsoft.ML.DataView.dll
+C:\Users\Happy\source\repos\DataHappy\bin\Debug\netcoreapp3.1\System.CodeDom.dll
+C:\Users\Happy\source\repos\DataHappy\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libLdaNative.so
+C:\Users\Happy\source\repos\DataHappy\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\libLdaNative.dylib
+C:\Users\Happy\source\repos\DataHappy\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\LdaNative.dll
+C:\Users\Happy\source\repos\DataHappy\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\LdaNative.dll
+C:\Users\Happy\source\repos\DataHappy\bin\Debug\netcoreapp3.1\DataHappyML.Model.dll

@@ -15,6 +15,6 @@ namespace DataHappy.Models
         public DateTime Date { get; set; }
         public string Description { get; set; }
         public string City { get; set; }
-        
+
     }
 }

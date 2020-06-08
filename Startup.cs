@@ -18,9 +18,12 @@ namespace DataHappy
 {
     public class Startup
     {
+        private readonly string _modelPath;
+
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
+            _modelPath = GetAbsolutePath("MLModel.zip");
         }
 
         public IConfiguration Configuration { get; }
@@ -32,6 +35,9 @@ namespace DataHappy
 
             services.AddDbContext<DataHappyContext>(options =>
                     options.UseSqlServer(Configuration.GetConnectionString("DataHappyContext")));
+
+            services.AddPredictionEnginePool<ModelInput, ModelOutput>()
+                    .FromFile(_modelPath);
 
         }
 
@@ -61,5 +67,15 @@ namespace DataHappy
                 endpoints.MapRazorPages();
             });
         }
+
+        public static string GetAbsolutePath(string relativePath)
+        {
+            FileInfo _dataRoot = new FileInfo(typeof(Program).Assembly.Location);
+            string assemblyFolderPath = _dataRoot.Directory.FullName;
+
+            string fullPath = Path.Combine(assemblyFolderPath, relativePath);
+            return fullPath;
+        }
+
     }
 }

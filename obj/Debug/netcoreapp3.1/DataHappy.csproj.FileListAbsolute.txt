@@ -181,3 +181,6 @@ C:\Users\Happy\source\repos\DataHappy\bin\Debug\netcoreapp3.1\runtimes\osx-x64\n
 C:\Users\Happy\source\repos\DataHappy\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\LdaNative.dll
 C:\Users\Happy\source\repos\DataHappy\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\LdaNative.dll
 C:\Users\Happy\source\repos\DataHappy\bin\Debug\netcoreapp3.1\DataHappyML.Model.dll
+C:\Users\Happy\source\repos\DataHappy\bin\Debug\netcoreapp3.1\MLModel.zip
+C:\Users\Happy\source\repos\DataHappy\bin\Debug\netcoreapp3.1\Microsoft.Extensions.ML.dll
+C:\Users\Happy\source\repos\DataHappy\bin\Debug\netcoreapp3.1\DataHappyML.Model.pdb

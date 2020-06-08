@@ -1,0 +1,10 @@
+C:\Users\Happy\source\repos\DataHappyML.Model\bin\Debug\netstandard2.0\MLModel.zip
+C:\Users\Happy\source\repos\DataHappyML.Model\bin\Debug\netstandard2.0\DataHappyML.Model.deps.json
+C:\Users\Happy\source\repos\DataHappyML.Model\bin\Debug\netstandard2.0\DataHappyML.Model.dll
+C:\Users\Happy\source\repos\DataHappyML.Model\bin\Debug\netstandard2.0\DataHappyML.Model.pdb
+C:\Users\Happy\source\repos\DataHappyML.Model\obj\Debug\netstandard2.0\DataHappyML.Model.csprojAssemblyReference.cache
+C:\Users\Happy\source\repos\DataHappyML.Model\obj\Debug\netstandard2.0\DataHappyML.Model.csproj.CoreCompileInputs.cache
+C:\Users\Happy\source\repos\DataHappyML.Model\obj\Debug\netstandard2.0\DataHappyML.Model.AssemblyInfoInputs.cache
+C:\Users\Happy\source\repos\DataHappyML.Model\obj\Debug\netstandard2.0\DataHappyML.Model.AssemblyInfo.cs
+C:\Users\Happy\source\repos\DataHappyML.Model\obj\Debug\netstandard2.0\DataHappyML.Model.dll
+C:\Users\Happy\source\repos\DataHappyML.Model\obj\Debug\netstandard2.0\DataHappyML.Model.pdb

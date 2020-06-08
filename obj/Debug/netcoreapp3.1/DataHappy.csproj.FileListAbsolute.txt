@@ -184,3 +184,4 @@ C:\Users\Happy\source\repos\DataHappy\bin\Debug\netcoreapp3.1\DataHappyML.Model.
 C:\Users\Happy\source\repos\DataHappy\bin\Debug\netcoreapp3.1\MLModel.zip
 C:\Users\Happy\source\repos\DataHappy\bin\Debug\netcoreapp3.1\Microsoft.Extensions.ML.dll
 C:\Users\Happy\source\repos\DataHappy\bin\Debug\netcoreapp3.1\DataHappyML.Model.pdb
+C:\Users\Happy\source\repos\DataHappy\obj\Debug\netcoreapp3.1\Razor\Pages\Review.cshtml.g.cs

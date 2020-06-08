@@ -1,0 +1,16 @@
+C:\Users\Happy\source\repos\DataHappyML.ConsoleApp\bin\Debug\netcoreapp2.1\MLModel.zip
+C:\Users\Happy\source\repos\DataHappyML.ConsoleApp\bin\Debug\netcoreapp2.1\DataHappyML.ConsoleApp.deps.json
+C:\Users\Happy\source\repos\DataHappyML.ConsoleApp\bin\Debug\netcoreapp2.1\DataHappyML.ConsoleApp.runtimeconfig.json
+C:\Users\Happy\source\repos\DataHappyML.ConsoleApp\bin\Debug\netcoreapp2.1\DataHappyML.ConsoleApp.runtimeconfig.dev.json
+C:\Users\Happy\source\repos\DataHappyML.ConsoleApp\bin\Debug\netcoreapp2.1\DataHappyML.ConsoleApp.dll
+C:\Users\Happy\source\repos\DataHappyML.ConsoleApp\bin\Debug\netcoreapp2.1\DataHappyML.ConsoleApp.pdb
+C:\Users\Happy\source\repos\DataHappyML.ConsoleApp\bin\Debug\netcoreapp2.1\DataHappyML.Model.dll
+C:\Users\Happy\source\repos\DataHappyML.ConsoleApp\bin\Debug\netcoreapp2.1\DataHappyML.Model.pdb
+C:\Users\Happy\source\repos\DataHappyML.ConsoleApp\obj\Debug\netcoreapp2.1\DataHappyML.ConsoleApp.csprojAssemblyReference.cache
+C:\Users\Happy\source\repos\DataHappyML.ConsoleApp\obj\Debug\netcoreapp2.1\DataHappyML.ConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\Happy\source\repos\DataHappyML.ConsoleApp\obj\Debug\netcoreapp2.1\DataHappyML.ConsoleApp.AssemblyInfoInputs.cache
+C:\Users\Happy\source\repos\DataHappyML.ConsoleApp\obj\Debug\netcoreapp2.1\DataHappyML.ConsoleApp.AssemblyInfo.cs
+C:\Users\Happy\source\repos\DataHappyML.ConsoleApp\obj\Debug\netcoreapp2.1\DataHappyML.ConsoleApp.csproj.CopyComplete
+C:\Users\Happy\source\repos\DataHappyML.ConsoleApp\obj\Debug\netcoreapp2.1\DataHappyML.ConsoleApp.dll
+C:\Users\Happy\source\repos\DataHappyML.ConsoleApp\obj\Debug\netcoreapp2.1\DataHappyML.ConsoleApp.pdb
+C:\Users\Happy\source\repos\DataHappyML.ConsoleApp\obj\Debug\netcoreapp2.1\DataHappyML.ConsoleApp.genruntimeconfig.cache
